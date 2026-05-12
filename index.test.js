@@ -38,4 +38,7 @@ describe('Sumar', () => {
     expect(Sumar('1,2')).toBe(3);
   })
   
+  test('Sumar_TresNumeros_RetornaLaSuma', () => {
+    expect(Sumar('1,2,3')).toBe(6);
+  })
 })
