@@ -1,7 +1,9 @@
 export function Sumar(numeros) {
-  if (numeros === '') {
+ if (numeros === '') {
     return 0;
-  } else if (numeros === '1') {
-    return 1;
   }
+  
+  // En lugar de hardcodear '1', convertimos cualquier cadena de un solo número a Entero.
+  return parseInt(numeros, 10);
 }
+
